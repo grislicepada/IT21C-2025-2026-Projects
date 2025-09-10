@@ -12,4 +12,10 @@ if(tlsleep>=5){
 }else{
     console.log("\nYou need to study more.");
 }
+let subjects = ["Web Systems", "Event Driven Programming", "OOP","Database Management"];
+    console.log("\nList of my subject this sem:");
 
+    for (let i = 0; i < subjects.length; i++){
+    
+    console.log(subjects[i]);
+    }
