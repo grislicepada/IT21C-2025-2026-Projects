@@ -12,3 +12,4 @@ if(tlsleep>=5){
 }else{
     console.log("\nYou need to study more.");
 }
+
