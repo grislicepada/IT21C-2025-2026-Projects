@@ -19,3 +19,9 @@ let subjects = ["Web Systems", "Event Driven Programming", "OOP","Database Manag
     
     console.log(subjects[i]);
     }
+    
+ function greet (name) {
+    console.log("\nMy name is " + name);
+    
+ }
+greet (name + ", a " + year + " "+ course);
