@@ -1,0 +1,63 @@
+p {
+    font-size: small
+}
+
+h1,
+h2,
+mark {
+    line-height: 1.5px;
+
+}
+
+mark {
+    line-height: 1.5px;
+    font-style: italic;
+    font-size: small;
+}
+
+footer {
+    line-height: 1.5px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+
+}
+
+th {
+    background-color: #1f6bdd;
+
+}
+
+th:nth-child(3) {
+    width: 200px;
+}
+
+th:nth-child(2) {
+    width: 60px;
+}
+
+th:nth-child(1) {
+    width: 50px;
+}
+
+td img {
+    width: 100px;
+    /* or whatever size you want */
+    height: auto;
+    /* keeps the image from looking stretched */
+    display: block;
+    /* removes small extra spacing */
+    margin: 0 auto;
+    /* centers inside the cell */
+}
+
+/* list */
+ul{
+    list-style: square;
+    color: #1f6bdd;
+    text-align: left;
+    color:  mediumseagreen;
+}
